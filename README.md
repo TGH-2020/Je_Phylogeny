@@ -8,4 +8,4 @@ The [trees](/trees/) folder contains the settings and the output of all tree run
 ## References
 <a id="1">[1]</a> 
 Ferraz Gerardi, F., Wientzek, T., Gregorio De Souza, J., Roksandic, I., Orphão de Carvalho, F. (forthcoming).
-A phylogenetic classification of the Macro-Je language family.
+A phylogenetic classification of the Je language family.
