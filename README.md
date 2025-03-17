@@ -1,7 +1,7 @@
 # A phylogenetic classification of the Je language family
 
 This is the repository accompanying the study by Ferraz Gerardi et al. (2025) [[1]](#1).
-The [trees](/trees/) folder contains the settings and the output of all tree runs conducted.  
+The [trees](/trees/) folder contains the settings and the output of tree runs conducted.  
 The [data](/data/) folder contains:
 * a list of all concepts that have been used in the study, along with the coverage and the number of cognate sets per concept ([concepts.csv](/data/concepts.csv))
 * a list of all word forms and corresponding cogids assigned by automated cognacy judgements and used in the study ([auto_cogids.tsv](/data/auto_cogids.tsv))
