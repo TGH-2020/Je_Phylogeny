@@ -8,7 +8,6 @@ The [data](/data/) folder contains:
 * a subset of the data with columns for automatically and manually annotated cognates (used to assess the quality of automatic annotations; [subset_for_metrics_calculation.csv](/data/subset_for_metrics_calculation.csv))
 
 [![DOI](https://zenodo.org/badge/913805281.svg)](https://zenodo.org/badge/latestdoi/913805281)
-[DOI](http://dx.doi.org/10.12688/openreseurope.19346.1)
 
 ## References
 <a id="1">[1]</a> 
