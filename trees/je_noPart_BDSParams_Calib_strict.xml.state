@@ -1,0 +1,32 @@
+<itsabeastystatewerein version='2.0' sample='1000000'>
+<statenode id='Tree.t:tree'>((((5:97.20213519854201,13:97.20213519854201)15:336.6978210254722,4:433.8999562240142)14:1505.1226820389534,((8:1078.18609794936,(((10:50.51549724099128,6:50.51549724099128)16:98.92700666651693,9:149.4425039075082)18:33.39414141634046,((0:126.77756572354663,(3:100.46982854235459,2:100.46982854235459)17:26.30773718119204)20:32.446900086745686,7:159.22446581029232)22:23.612179513556356)21:895.3494526255113)25:161.07612172019117,(12:181.5876983482956,11:181.5876983482956)23:1057.6745213212555)24:699.7604185934165)19:3738.5285351266925,1:5677.55117338966)26:0.0</statenode>
+<statenode id='mutationRate.s:ABANDON'>mutationRate.s:ABANDON[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='bcov_alpha.s:ABANDON'>bcov_alpha.s:ABANDON[1 1] (1.0E-4,1.0): 0.003669034857091784 </statenode>
+<statenode id='bcov_s.s:ABANDON'>bcov_s.s:ABANDON[1 1] (1.0E-4,100.0): 0.16946954052322225 </statenode>
+<statenode id='frequencies.s:ABANDON'>frequencies.s:ABANDON[2 1] (0.0,1.0): 0.8648191853560859 0.13518081464391318 </statenode>
+<statenode id='birthRateBDS.t:tree'>birthRateBDS.t:tree[1 1] (0.0,100.0): 0.004306814387616786 </statenode>
+<statenode id='deathRateBDS.t:tree'>deathRateBDS.t:tree[1 1] (0.0,100.0): 0.004464275740800737 </statenode>
+<statenode id='rhoBDS.t:tree'>rhoBDS.t:tree[1 1] (0.0,1.0): 0.7059943587635212 </statenode>
+<statenode id='clockRate.c:clock'>clockRate.c:clock[1 1] (0.0,Infinity): 1.2528135225226317E-4 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"bcovAlphaScaler.s:ABANDON","p":0.25793938045157483,"accept":469,"reject":555,"acceptFC":450,"rejectFC":538,"rejectIv":0,"rejectOp":0},
+{"id":"bcovSwitchParamScaler.s:ABANDON","p":0.3716740690361929,"accept":343,"reject":737,"acceptFC":321,"rejectFC":732,"rejectIv":0,"rejectOp":0},
+{"id":"frequenciesDelta.s:ABANDON","p":0.04650431607184352,"accept":353,"reject":707,"acceptFC":343,"rejectFC":701,"rejectIv":0,"rejectOp":0},
+{"id":"FixMeanMutationRatesOperator","p":591.4419379844891,"accept":21440,"reject":0,"acceptFC":20991,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_treeScaler.t:tree","p":0.7674371701956417,"accept":4761,"reject":26930,"acceptFC":4711,"rejectFC":26281,"rejectIv":9429,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_treeRootScaler.t:tree","p":0.6309389332243325,"accept":8348,"reject":23766,"acceptFC":8269,"rejectFC":23126,"rejectIv":12920,"rejectOp":124},
+{"id":"BDSKY_contemp_bds_UniformOperator.t:tree","p":"NaN","accept":85155,"reject":234120,"acceptFC":83157,"rejectFC":229149,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_SubtreeSlide.t:tree","p":25.21415979642551,"accept":106563,"reject":53304,"acceptFC":105220,"rejectFC":51052,"rejectIv":10429,"rejectOp":10326},
+{"id":"BDSKY_contemp_bds_narrow.t:tree","p":"NaN","accept":19962,"reject":139895,"acceptFC":19100,"rejectFC":137233,"rejectIv":6079,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_wide.t:tree","p":"NaN","accept":265,"reject":31640,"acceptFC":251,"rejectFC":30950,"rejectIv":20249,"rejectOp":16568},
+{"id":"BDSKY_contemp_bds_WilsonBalding.t:tree","p":"NaN","accept":174,"reject":31507,"acceptFC":159,"rejectFC":30793,"rejectIv":12141,"rejectOp":8037},
+{"id":"BDSKY_contemp_bds_deathRateScaler.t:tree","p":0.65643992686973,"accept":7804,"reject":13379,"acceptFC":7674,"rejectFC":13080,"rejectIv":138,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_rhoScaler.t:tree","p":0.4424518330296427,"accept":2434,"reject":8268,"acceptFC":2340,"rejectFC":8145,"rejectIv":5509,"rejectOp":5509},
+{"id":"BDSKY_contemp_bds_birthRateScaler.t:tree","p":0.6301613796983196,"accept":37901,"reject":69329,"acceptFC":37061,"rejectFC":67814,"rejectIv":177,"rejectOp":0},
+{"id":"BDSKY_contemp_bds_updownBD.t:tree","p":0.7640350286058509,"accept":6528,"reject":14988,"acceptFC":6444,"rejectFC":14620,"rejectIv":146,"rejectOp":0},
+{"id":"StrictClockRateScaler.c:clock","p":0.6403846252440026,"accept":7835,"reject":24544,"acceptFC":7549,"rejectFC":24147,"rejectIv":0,"rejectOp":0},
+{"id":"strictClockUpDownOperator.c:clock","p":"NaN","accept":2455,"reject":13542,"acceptFC":2452,"rejectFC":13221,"rejectIv":2969,"rejectOp":0,"nProposals":15997,"param_mean_sum":"[0.03277743810409588, 375.82146938020514]","param_mean_SS":"[0.03650181175602863, 148454.94502778826]","numAccepts":"[195, 2260]","numProposals":"[1137, 13861]","operator_mean_runtimes":"[0.31555408970975984, 0.2739421398168085]","mean_SS":"[[0.010890044938421216, 0.0], [8.577616291247787E-5, 164502.12612380084]]","weights":"[0.012157138599336205, 0.9878428614006637]","operators":[{"id":"AVMNOperator.ABANDON","p":0.05289004398681592,"means":"[-7.061988689536484]","covariance":"[13.457496467883601]","accept":195,"reject":1436,"acceptFC":192,"rejectFC":1284,"rejectIv":0,"rejectOp":0},{"id":"strictClockUpDownOperatorX.c:clock","p":0.08661409253856364,"accept":2260,"reject":12106,"acceptFC":2260,"rejectFC":11937,"rejectIv":2969,"rejectOp":0}]}
+]}
+-->
